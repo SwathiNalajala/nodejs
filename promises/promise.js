@@ -12,7 +12,7 @@ return promise;
 getsum(5,7)
 .then(function(result){
 	console.log(result)
-	return getsum(10,11)},
+	return "next then called"},
 	function(error){
 		console.log(error)})
 .then(function(result){
